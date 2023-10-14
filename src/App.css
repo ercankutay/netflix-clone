@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  background-color: rgb(20, 20, 21);
+}
+
+.App {
+  text-align: center;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 80px;
+}
+
+.Row {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  margin-right: 10px;
+}
+
+.p-class {
+  display: flex;
+  flex-direction: column;
+}
+
+.poster {
+  display: flex;
+  object-fit: contain;
+  max-height: 200px;
+  margin-right: 9px;
+  transition: 450ms;
+  margin-right: 10px;
+}
+
+.movie-container {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.hover-info {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.poster:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 12px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.navbar {
+  color: white;
+  flex-direction: row;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  background-color: transparent;
+}
+.navbar-list {
+  display: flex;
+  list-style: none;
+  padding-top: 12px;
+  margin-left: 12px;
+}
+.navbar-item {
+  margin-right: 15px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-logo {
+  max-width: 150px;
+  max-height: 80px;
+  margin-top: -10px;
+  margin-right: 5px;
+}
+
+.navbar-search {
+  max-width: 100px;
+  max-height: 20px;
+  border: 1px solid blue;
+  outline: none;
+  margin-right: 5px;
+}
+
+.navbar-search-inactive {
+  color: #1e90ff;
+  cursor: pointer;
+}
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  list-style: none;
+  margin-right: 26px;
+}
+.navbar-link {
+  text-decoration: none;
+  color: red;
+  margin-right: 15px;
+}
+.banner {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+}
+
+.right-section {
+  flex: 1;
+  text-align: left;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.banner-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-image img {
+  height: auto;
+  object-fit: contain;
+  max-height: 740px;
+  width: auto;
+}
